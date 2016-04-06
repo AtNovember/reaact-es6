@@ -1,7 +1,7 @@
 {
-  "name": "react-start",
+  "name": "react-es6",
   "version": "1.0.0",
-  "description": "",
+  "description": "React.js SPA starter kit",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
