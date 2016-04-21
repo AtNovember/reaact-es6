@@ -10,7 +10,15 @@ module.exports = {
   output: {
   //  path: __dirname,
     path: PATHS.public,
-    filename: 'bundle.js' },
+    filename: 'bundle.js'
+  },
+  plugins: [
+    new webpack.HotModuleReplacementPlugin(),
+    new webpack.ProvidePlugin({
+      'React':     'react',
+      'ReactDOM':   'react-dom'
+    })
+  ],
   module: {
     loaders: [
       {
