@@ -1,14 +1,14 @@
 # react-es6
-React + es6 + webpack + babel starter kit 
+React + es6 + webpack + babel starter kit
 
-to install just write in console: 
+to install just write in console:
 
-npm install
+> npm install
 
-then write to start project 
+then write to start project
 
-npm start 
+> npm start
 
-it will start with *webpack-dev-server* on 
+it will start with *webpack-dev-server* on
 
-localhost:8080/webpack-dev-server/
+> localhost:8080/webpack-dev-server/
